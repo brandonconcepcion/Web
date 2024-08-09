@@ -1,0 +1,28 @@
+p{
+    font-family: Arial;
+    margin-top: 0px;
+  }
+
+  .dollar{
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+
+  .usd{
+    font-size: 20px;
+    color: gray;
+  }
+
+  .increase{
+    font-size: 18px;
+    color: green;
+    margin-bottom: 5px;
+  }
+
+  .hours{
+    font-size: 18px;
+    color: gray;
+  }
+  .decrease{
+    color: red
+  }

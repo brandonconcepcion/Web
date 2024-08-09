@@ -1,0 +1,45 @@
+p{
+    font-family: Arial;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .new{
+    color: rgb(238, 174, 110);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .mac{
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .super{
+    font-weight: bold;
+    font-size:45px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .price{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .buy{
+    color: white;
+    background-color: rgb(10,102,194);
+    border-radius: 4px;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+  }

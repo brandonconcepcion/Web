@@ -1,0 +1,201 @@
+
+  .subscribe-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+
+  .subscribe-button:hover{
+    opacity: 0.8;
+  }
+
+  .subscribe-button:active{
+    opacity: 0.5;
+  }
+
+  .join-button{
+    background-color: white;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(41, 118, 211);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+    color 1s;
+    padding-left: 16px;
+    padding-right:16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    vertical-align: top;
+  }
+
+  .join-button:hover{
+    background-color: rgb(41, 118, 211);
+    color:white;
+  }
+
+  .join-button:active{
+    opacity: 0.7;
+  }
+
+  .tweet-button{
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+  }
+
+  .tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .uber-request{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 125px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: opacity 0.15s;
+  }
+
+  .uber-request:hover{
+    opacity: 0.8;
+
+  }
+
+  .amazon-cart{
+    background-color: rgb(241, 248, 29);
+    color: black;
+    border: none;
+    height: 36px;
+    width: 167px;
+    border-radius:18px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background-color 0.15s;
+  }
+
+  .amazon-cart:hover{
+    background-color: rgb(220, 217, 47) ;
+  }
+
+  .github-sign-up{
+    background-color: rgb(46,164,79);
+    color: white;
+    height: 36px;
+    width: 90px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+  }
+
+  .github-sign-up:hover{
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .bootstrap-started{
+    color: white;
+    background-color: rgb(121,82,179);
+    border:none;
+    height: 36px;
+    width: 100px;
+    font-size: 12.5px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: background-color 0.15s;
+  }
+
+  .bootstrap-started:hover{
+    background-color: rgb(92, 54, 148);
+  }
+
+  .bootstrap-download{
+    color: rgb(108,117,125);
+    background-color: white;
+    border-color: rgb(108,117,125);
+    border-width: 1px;
+    height: 36px;
+    width: 100px;
+    font-size: 12.5px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s, 
+    color 0.15s; 
+  }
+
+  .bootstrap-download:hover{
+    background-color: rgb(108,117,125);
+    color: white;
+    border:none
+  }
+
+  .linked-apply{
+    color:white;
+    background-color: rgb(10,102,194);
+    height: 36px;
+    border:none;
+    width: 220px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 14;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s;
+  }
+
+  .linked-apply:hover{
+    background-color: rgb(43, 68, 166)
+  }
+
+  .linked-save{
+    color:rgb(10,102,194);
+    background-color: white;
+    border-color: rgb(10,102,194);
+    border-style: solid;
+    font-size: 14px;
+    font-weight: bold;
+    height: 36px;
+    width:70px;
+    border-width: 1px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.2s, 
+    border-width 0.15s;
+  }
+
+  .linked-save:hover{
+    background-color: rgb(207, 231, 253);
+    border-width: 1.5px;
+  }

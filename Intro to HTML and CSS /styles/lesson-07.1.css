@@ -1,0 +1,29 @@
+p{
+    font-family: Montserrat;;
+    margin-bottom: 10px;
+}
+
+img{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .sevena{
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  .sevenb{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 15px;
+  }
+  
+  .sevenc{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 200px;
+  }

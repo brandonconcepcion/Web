@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lesson 10 Nested Practice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <style>
+
+    .profile {
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+
+    .profilearea{
+      height: 60px;
+      width: 60px;
+      display: inline-block;
+      vertical-align: top;
+      padding-right: 5px;
+      padding-top: 3px;
+    }
+
+    .profilepic{
+      width: 55px;
+      border-radius: 50%;
+    }
+
+    .userinfo {
+      height:60px;
+      display: inline-block;
+      width:100px;
+      padding-top: 2px;
+      padding-right: 30px;
+      vertical-align: top;
+    }
+
+
+    p{
+      font-family: Arial;
+      margin-top: 0px;
+      margin-bottom:2px;
+    }
+
+    .user{
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    .nickname, .popularity{
+      color: rgb(96,96,96);
+      font-size: 11px;
+    }
+
+    .buttondisplay{
+      height: 45px;
+      display: inline-block;
+      padding-top: 12px;
+      vertical-align: top;
+    }
+
+    .follow{
+      background-color: rgb(68, 143, 241);
+      color: white;
+      border: none;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 7px;
+      padding-right: 7px;
+      border-radius: 2px;
+      font-size: 12px;
+      margin-left: 8px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      }
+
+
+      .one-video{
+        display: block;
+        margin-right: 15px;
+        width: 600px;
+      }
+
+      .thumbnail{
+        width: 200px;
+        display: block;
+      }
+
+      .thumbnail-row{
+        margin-bottom: 12px;
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      .search-bar{
+        font-size: 20px;
+        margin-left: 12px;
+        display: block;
+      }
+
+      .video-title{
+        margin-top: 0px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 6px;
+        font-weight: bold;
+      }
+
+      .video-author, .video-stats{
+        font-size: 12px;
+        color: rgb(96,96,96);
+      }
+
+      .video-author{
+        margin-bottom: 6px;
+      }
+
+      .video-info{
+        display: inline-block;
+        vertical-align: top;
+        width: 200px;
+        padding-top: 10px;
+      }
+
+      .channel-picture{
+        display: inline-block;
+        width: 45px;
+        vertical-align: top;
+      }
+
+      .profilepic{
+        width: 37px;
+        border-radius: 50%;
+      }
+
+  </style>
+</head>
+
+<body>
+  <p>10a. One Individual Instagram Profile:</p>
+  <br>
+  <div class = "profile">
+    <div class="profilearea">
+      <img class = "profilepic" src = "data8.png">
+    </div>
+    
+    <div class = "userinfo" >
+      <p class = "user">Data 8</p>
+      <p class = "nickname">the class</p>
+      <p class = "popularity">Popular</p>
+    </div> 
+
+    <div class = "buttondisplay">
+      <button class = "follow"> Follow </button>
+    </div>
+  </div>
+
+    <br>
+    <br>
+    <p>10b. Multiple Instagram Profiles:</p>
+
+    <br>
+
+    <div class = "profile">
+      <div class="profilearea">
+        <img class = "profilepic" src = "data8.png">
+      </div>
+      
+      <div class = "userinfo" >
+        <p class = "user">DATA 8</p>
+        <p class = "nickname">the class</p>
+        <p class = "popularity">Very Popular</p>
+      </div> 
+  
+      <div class = "buttondisplay">
+        <button class = "follow"> Follow </button>
+      </div>
+    </div>
+
+    <div class = "profile">
+      <div class="profilearea">
+        <img class = "profilepic" src = "61b.png">
+      </div>
+      
+      <div class = "userinfo" >
+        <p class = "user">COMPSCI 61B</p>
+        <p class = "nickname">the class</p>
+        <p class = "popularity">It's Aight</p>
+      </div> 
+  
+      <div class = "buttondisplay">
+        <button class = "follow"> Follow </button>
+      </div>
+    </div>
+
+    <div class = "profile">
+      <div class="profilearea">
+        <img class = "profilepic" src = "ds100.png">
+      </div>
+      
+      <div class = "userinfo" >
+        <p class = "user">DATA 100</p>
+        <p class = "nickname">the class</p>
+        <p class = "popularity">Popular</p>
+      </div> 
+  
+      <div class = "buttondisplay">
+        <button class = "follow"> Follow </button>
+      </div>
+    </div>
+
+    <br>
+
+    <p>10b. Multiple YouTube Videos:</p>
+
+    <br>
+
+    <div class = "one-video">
+      <div class = "thumbnail-row">
+        <img class = "thumbnail" src= "../Youtube Final Project/thumbnails/talkingtech.webp">
+      </div>
+
+        <div class = "video-info">
+        <p class = "video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+        <p class = "video-author">Marques Brownlee</p>
+        <p class = "video-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class = "one-video">
+      <div class = "thumbnail-row">
+        <img class = "thumbnail" src= "../Youtube Final Project/thumbnails/interstellar.webp">
+      </div>
+
+        <div class = "video-info">
+        <p class = "video-title">Let's reproduce the calculations from Interstellar</p>
+        <p class = "video-author">ScienceClic English</p>
+        <p class = "video-stats">795K views &#183; 3 months ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class = "one-video">
+      <div class = "thumbnail-row">
+        <img class = "thumbnail" src= "../Youtube Final Project/thumbnails/smallant.webp">
+      </div>
+
+        <div class = "video-info">
+        <p class = "video-title">Minecraft but a random mob spawns every 10 seconds</p>
+        <p class = "video-author">SmallAnt</p>
+        <p class = "video-stats">1.1M views &#183; 2 months ago</p>
+        </div>
+      </div>
+    </div>
+      
+
+
+</body>
+
+</html>

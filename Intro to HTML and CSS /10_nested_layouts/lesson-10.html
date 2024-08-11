@@ -3,11 +3,19 @@
 
 <head>
   <title>Lesson 10 Nested Practice</title>
+  <link rel = stylesheet href = "../09_div/lesson-09.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
   <style>
+
+    p{
+      font-family: Arial;
+      margin-top: 0px;
+      margin-bottom:2px;
+      font-size: 20px;
+    }
 
     .profile {
       height: 60px;
@@ -38,12 +46,6 @@
       vertical-align: top;
     }
 
-
-    p{
-      font-family: Arial;
-      margin-top: 0px;
-      margin-bottom:2px;
-    }
 
     .user{
       font-weight: 700;
@@ -126,16 +128,45 @@
         padding-top: 10px;
       }
 
+      .pfpfacebook{
+        width: 200px;
+      }
+
+
+      .facebook-div{
+        width: 200px;
+      }
+
       .channel-picture{
         display: inline-block;
         width: 45px;
         vertical-align: top;
       }
 
-      .profilepic{
-        width: 37px;
+      .mutualpfp{
+        width: 30px;
         border-radius: 50%;
+        margin-right: 0px;
       }
+
+      .mutualspace{
+        padding-left: 7px;
+        margin-bottom: 8px;
+      }
+
+      .mutuals{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 7px;
+        margin-left: 5px;
+        font-size: 15px;
+      }
+
+      .name{
+        padding-top: 10px;
+      }
+
+      
 
   </style>
 </head>
@@ -257,6 +288,46 @@
         </div>
       </div>
     </div>
+
+
+    <p>10e. Multiple Facebook Profiles:</p>
+
+    <br>
+
+    <div class = "facebook-div">
+      <img class = "pfpfacebook" src = "../09_div/doodle.jpg">
+      <p class = "name">Doodle Bob</p>
+      <div class = mutualspace>
+        <img class = "mutualpfp" src = "../Youtube Final Project/pfps/ScienceClic_pfp.jpeg">
+        <p class = "mutuals">69 mutual friends</p>
+      </div>
+      <button class = "add-friend-button">Add Friend</button>
+    </div>
+  
+    <div class = "facebook-div">
+      <img class = "pfpfacebook" src = "../09_div/dirtydan.webp">
+      <p class = "name">Dirty Dan</p>
+
+      <div class = mutualspace>
+        <img class = "mutualpfp" src = "../Youtube Final Project/pfps/ScienceClic_pfp.jpeg">
+        <p class = "mutuals">98 mutual friends</p>
+      </div>  
+
+      <button class = "add-friend-button">Add Friend</button>
+    </div>
+  
+    <div class = "facebook-div">
+      <img class = "pfpfacebook" src = "../09_div/krab_borg.webp">
+      <p class = "name">Robot Krabs</p>
+
+      <div class = "mutualspace">
+      <img class = "mutualpfp" src = "../Youtube Final Project/pfps/ScienceClic_pfp.jpeg">
+      <p class = "mutuals">Beep mutual friends</p>
+      </div>
+      <button class = "add-friend-button">Add Friend</button>
+    </div>
+
+
       
 
 

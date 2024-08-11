@@ -37,6 +37,7 @@ p{
     padding-bottom: 5px;
     padding-right: 5px;
     padding-left: 5px;
+    cursor: pointer;
 
 }
 
@@ -46,6 +47,7 @@ p{
     padding-bottom: 5px;
     padding-right: 5px;
     padding-left: 5px;
+    cursor: pointer;
 }
 
 .ytmusic{
@@ -168,3 +170,62 @@ p{
     margin-bottom: 10px;
     cursor: pointer;
   }
+
+  .google{
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.search{
+    border:none;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    text-align: left;
+    padding-left: 15px;
+    color: gray;
+    padding-right: 200px;
+    font-size: 16px;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+}
+
+.google-div{
+    text-align: center;
+}
+
+.search-button{
+    background-color: rgb(232, 229, 229);
+    color: black;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.feeling-lucky{
+    background-color: rgb(232, 229, 229);
+    color: gray;
+    font-size: 16px;
+    margin-left: 8px;
+    cursor: pointer;
+    color: black;
+    margin-top: 15px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: none;
+
+}

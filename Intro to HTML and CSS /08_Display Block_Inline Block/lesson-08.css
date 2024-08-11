@@ -1,0 +1,130 @@
+p{
+    font-family: Montserrat;;
+    margin-bottom: 10px;
+}
+
+.name-search,
+.email-search {
+    display: block;
+    margin-bottom: 5px; /* Optional: adds space between the inputs */
+}
+
+.survey{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    width: 200px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.yesno{
+    display: inline;
+}
+
+.google{
+    width: 250px;
+    display:block;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.search{
+    border:none;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    text-align: left;
+    padding-left: 15px;
+    color: gray;
+    padding-right: 200px;
+    font-size: 16px;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+}
+
+.name{
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    color: gray;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 17px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.mail{
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    color: gray;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 236px;
+    font-size: 17px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.signup{
+    background-color: rgb(47, 127, 231);
+    color: white;
+    border: none;
+    width: 431px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.request{
+    font-family: Arial;
+    display: block;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.pickup{
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.request-button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+    margin-right: 20px;
+    display: inline;
+}
+
+.schedule{
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+}

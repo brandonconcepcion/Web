@@ -11,6 +11,14 @@
         .search-bar{
           font-size: 20px;
           margin-left: 12px;
+          display: block;
+        }
+
+        .video-preview{
+          width: 300px;
+          display:inline-block;
+          vertical-align: top;
+          margin-right: 15px;
         }
 
       </style>
@@ -18,11 +26,22 @@
 
   <body>
     <input class = "search-bar" type="textbox" placeholder="Search">
-    <img class = "thumbnail" src= "thumbnails/talkingtech.webp">
 
-    <p>Talking Tech and AI with Google CEO Sundar Pichai!</p>
-    <p>Marques Brownlee</p>
-    <p>3.4M views &#183; 6 months ago</p>
+    <div class = "video-preview">
+      <img class = "thumbnail" src= "thumbnails/talkingtech.webp">
+      <p>Talking Tech and AI with Google CEO Sundar Pichai!</p>
+      <p>Marques Brownlee</p>
+      <p>3.4M views &#183; 6 months ago</p>
+    </div>
+
+    <div class = "video-preview">
+      <img class = "thumbnail" src= "thumbnails/interstellar.webp">
+      <p>Let's reproduce the calculations from Interstellar</p>
+      <p>ScienceClic English</p>
+      <p>795K views &#183; 3 months ago</p>
+    </div>
+
+
   </body>
 
 </html>

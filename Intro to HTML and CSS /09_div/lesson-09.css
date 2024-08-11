@@ -1,0 +1,170 @@
+p{
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+.red{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+
+.green{
+    background-color: forestgreen;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.satisfied_div{
+    border: solid;
+    border-width: 1px;
+    padding-bottom: 30px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.satisfaction{
+    font-family: Arial;
+    margin-left: 15px;
+}
+
+.yes{
+    margin-left: 15px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+.no{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.ytmusic{
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(33, 33, 33);
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+.installation{
+    font-family: Arial;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.add{
+    font-family: Arial;
+    color: gray;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.pfp{
+    width:50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    vertical-align: middle;
+    margin-top: 10px;
+  }
+
+  .textbox{
+    vertical-align: middle;
+    border: none;
+    width: 250px;
+    font-size: 18px;
+    margin-top: 10px;
+    height: 36px;
+  }
+
+  .tweet-button{
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: middle;
+    margin-top: 10px;
+  }
+
+  .tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .tweet-div{
+    padding-left: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-top: 5px;
+    border-radius: 10px;
+    width: 400px;
+  }
+
+  .facebook-div{
+    width: 175px;
+    height: 350px;
+    margin-bottom: 0px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .pfpfacebook{
+    width: 175px;
+    height: 200px;
+    object-fit: cover;
+    border: none;
+  }
+
+  .name{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 4px;
+  }
+
+  .mutuals{
+    font-family: Arial;
+    color: rgb(100, 100, 100);
+    margin-left: 8px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+
+  .add-friend-button {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }

@@ -13,16 +13,8 @@
           margin-bottom: 0px;
         }
 
-        .one-video{
-          display: inline-block;
-          margin-right: 15px;
-          vertical-align: top;
-          width: 300px;
-        }
-
         .thumbnail{
-          width: 300px;
-          display: block;
+          width: 100%;
         }
 
         .thumbnail-row{
@@ -35,16 +27,29 @@
           display: block;
         }
 
+
+        .video-grid{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          column-gap: 15px;
+          row-gap: 40px;
+        }
+
+        .video-info-grid{
+          display: grid;
+          grid-template-columns: 50px 1fr;
+        }
+
         .video-title{
           margin-top: 0px;
-          font-size: 14px;
+          font-size: 16px;
           font-weight: 500;
           line-height: 20px;
-          margin-bottom: 10px;
+          margin-bottom: 5px;
         }
 
         .video-author, .video-stats{
-          font-size: 12px;
+          font-size: 14px;
           color: rgb(96,96,96);
         }
 
@@ -53,13 +58,10 @@
         }
 
         .video-info{
-          display: inline-block;
           vertical-align: top;
-          width: 200px;
         }
 
         .channel-picture{
-          display: inline-block;
           width: 45px;
           vertical-align: top;
         }
@@ -70,55 +72,140 @@
         }
 
 
+
       </style>
   </head>
 
   <body>
     <input class = "search-bar" type="textbox" placeholder="Search">
 
+    <div class = "video-grid">
+
+      <div class = "one-video">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src= "thumbnails/talkingtech.webp">
+        </div>
+        
+        
+        <div class = "video-preview">
+
+          <div class = "video-info-grid">
+          
+            <div class = "channel-picture">
+              <img class = "profilepic" src = "pfps/MKBHD_pfp.jpeg">
+            </div>
+
+            <div class = "video-info">
+            <p class = "video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            <p class = "video-author">Marques Brownlee</p>
+            <p class = "video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+      </div>
+
+      </div>
+
     <div class = "one-video">
       <div class = "thumbnail-row">
-        <img class = "thumbnail" src= "thumbnails/talkingtech.webp">
+        <img class = "thumbnail" src= "thumbnails/interstellar.webp">
       </div>
       
-      
-      <div class = "video-preview">
-        <div class = "channel-picture">
-          <img class = "profilepic" src = "pfps/MKBHD_pfp.jpeg">
-        </div>
+      <div class = "video-preview" id = "pfp and information">
+        <div class = "video-info-grid">
+          <div class = "channel-picture" id = "Channel profile pic">
+            <img class = "profilepic" src = "pfps/ScienceClic_pfp.jpeg">
+          </div>
 
-        <div class = "video-info">
-        <p class = "video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-        <p class = "video-author">Marques Brownlee</p>
-        <p class = "video-stats">3.4M views &#183; 6 months ago</p>
+          <div class = "video-info" id = "Video information">
+            <p class = "video-title">Let's reproduce the calculations from Interstellar</p>
+            <p class = "video-author">ScienceClic English</p>
+            <p class = "video-stats">795K views &#183; 3 months ago</p>
+          </div>
         </div>
-      
-  
       </div>
-
     </div>
 
     <div class = "one-video">
-        <div class = "thumbnail-row">
-        <img class = "thumbnail" src= "thumbnails/interstellar.webp">
+      <div class = "thumbnail-row">
+        <img class = "thumbnail" src= "thumbnails/tryguys.webp">
       </div>
-
+      
       <div class = "video-preview" id = "pfp and information">
+        <div class = "video-info-grid">
+          <div class = "channel-picture" id = "Channel profile pic">
+            <img class = "profilepic" src = "pfps/buzzfeedpfp.jpeg">
+          </div>
 
-        <div class = "channel-picture" id = "Channel profile pic">
-          <img class = "profilepic" src = "pfps/ScienceClic_pfp.jpeg">
+          <div class = "video-info" id = "Video information">
+            <p class = "video-title">The Try Guys Ocean Survival Food Taste Test // Sponsored by The Shallows</p>
+            <p class = "video-author">BuzzFeedVideo</p>
+            <p class = "video-stats">9.3M views &#183; 8 years ago</p>
+          </div>
         </div>
-
-        <div class = "video-info" id = "Video information">
-          <p class = "video-title">Let's reproduce the calculations from Interstellar</p>
-          <p class = "video-author">ScienceClic English</p>
-          <p class = "video-stats">795K views &#183; 3 months ago</p>
-        </div>
-
       </div>
-    
     </div>
 
+    <div class = "one-video">
+      <div class = "thumbnail-row">
+        <img class = "thumbnail" src= "thumbnails/tokyorelay.webp">
+      </div>
+      
+      <div class = "video-preview" id = "pfp and information">
+        <div class = "video-info-grid">
+          <div class = "channel-picture" id = "Channel profile pic">
+            <img class = "profilepic" src = "pfps/nbc_pfp.jpeg">
+          </div>
+
+          <div class = "video-info" id = "Video information">
+            <p class = "video-title">USA sets new world record to continue men's 4x100 medley relay reign | Tokyo Olympics | NBC Sports</p>
+            <p class = "video-author">NBC Sports</p>
+            <p class = "video-stats">2.7M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class = "one-video">
+      <div class = "thumbnail-row">
+        <img class = "thumbnail" src= "thumbnails/matt_stonie.webp">
+      </div>
+      
+      <div class = "video-preview" id = "pfp and information">
+        <div class = "video-info-grid">
+          <div class = "channel-picture" id = "Channel profile pic">
+            <img class = "profilepic" src = "pfps/matt_s_pfp.jpeg">
+          </div>
+
+          <div class = "video-info" id = "Video information">
+            <p class = "video-title">Mountain of Extra Crispy Fried Chicken Challenge (13,500 Calories)</p>
+            <p class = "video-author">Matt Stonie</p>
+            <p class = "video-stats">16M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class = "one-video">
+      <div class = "thumbnail-row">
+        <img class = "thumbnail" src= "thumbnails/smallant.webp">
+      </div>
+      
+      <div class = "video-preview" id = "pfp and information">
+        <div class = "video-info-grid">
+          <div class = "channel-picture" id = "Channel profile pic">
+            <img class = "profilepic" src = "pfps/smallantpfp.jpeg">
+          </div>
+
+          <div class = "video-info" id = "Video information">
+            <p class = "video-title">Minecraft but a random mob spawns every 10 seconds</p>
+            <p class = "video-author">SmallAnt</p>
+            <p class = "video-stats">1.1M views &#183; 2 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
   </body>
 

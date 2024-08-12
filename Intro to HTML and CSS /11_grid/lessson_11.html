@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson 11: Grids</title>
+    <style>
+        p{
+            font-size: 25px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .grid1{
+            display: grid;
+            grid-template-columns: 200px  75px;
+        }
+
+        .grid2{
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+        }
+
+        .grid3{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+
+        .facebookgrid{
+            display: grid;
+            grid-template-columns: 275px 275px 275px;
+            column-gap: 15px;
+        }
+
+        .facebook-div{
+          height: 400px;
+          margin-bottom: 0px;
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+          margin-left: 15px;
+          display: inline-block;
+          vertical-align: top;
+          padding-bottom: 25px;
+        }
+      
+        .pfpfacebook{
+          width: 100%;
+          height: 250px;
+          object-fit: cover;
+          border: none;
+          margin-bottom: 0px;
+        }
+      
+        .name{
+          font-family: Arial;
+          font-size: 25px;
+          font-weight: bold;
+          margin-left: 8px;
+          margin-bottom: 4px;
+          margin-top: 9px;
+        }
+
+        .mutualsection{
+          padding-left: 8px;
+        }
+      
+        .mutuals{
+          font-family: Arial;
+          color: rgb(100, 100, 100);
+          margin-top: 2px;
+          margin-bottom: 12px;
+          font-size: 19px;
+          padding: 8px;
+          padding-top: ;
+        }
+
+        .mutualgrid{
+          display: grid;
+          grid-template-columns: 1fr 5fr;
+          column-gap: 10px;
+          margin-bottom: 8px;
+        }
+
+        .mutualpfp{
+          width: 40px;
+          border-radius: 50%;
+          align-items: center;
+        }
+      
+        .add-friend-button {
+          background-color: rgb(24, 119, 242);
+          color: white;
+          border: none;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          padding-left: 30px;
+          padding-right: 30px;
+          border-radius: 8px;
+          font-size: 23px;
+          margin-left: 8px;
+          margin-bottom: 10px;
+          cursor: pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p>11a. Two columns (one 200px and one 75px): </p>
+    <div class = "grid1">
+      <div style= "background-color: lightblue;">200px</div>
+      <div style="background-color: pink;">75px</div>
+    </div>
+
+    <br>
+
+    <p>11b. Three columns (one 50px, remaining space, and one 75px): </p>
+
+    <div class = "grid2">
+      <div style= "background-color: lightblue;">col1</div>
+      <div style="background-color: pink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+    </div>
+
+    <p>11c. 4 equal columns taking up the entire page. Col space  20px row space 10px</p>
+
+    <div class = "grid3">
+      <div style= "background-color: pink;">col1</div>
+      <div style="background-color: pink;">col2</div>
+      <div style="background-color: pink;">col3</div>
+      <div style="background-color: pink;">col3</div>
+      <div style= "background-color: pink;">col1</div>
+      <div style="background-color: pink;">col2</div>
+      <div style="background-color: pink;">col3</div>
+      <div style="background-color: pink;">col3</div>
+    </div>
+
+    <p>11d. Facebook profiles using grid</p>
+
+    <div class = "facebookgrid">
+
+      <div class = "facebook-div">
+          <img class = "pfpfacebook" src = "../09_div/doodle.jpg">
+          <p class = "name">Doodle Bob</p>
+
+          <div class = mutualsection>
+            <div class = "mutualgrid">
+              <img class = "mutualpfp" src = "../Youtube Final Project/pfps/buzzfeedpfp.jpeg">
+              <p class = "mutuals">69 mutual friends</p>
+            </div>
+          </div>
+
+          <button class = "add-friend-button">Add Friend</button>
+        </div>
+      
+        <div class = "facebook-div">
+          <img class = "pfpfacebook" src = "../09_div/dirtydan.webp">
+          <p class = "name">Dirty Dan</p>
+
+          <div class = mutualsection>
+            <div class = "mutualgrid">
+            <img class = "mutualpfp" src = "../Youtube Final Project/pfps/buzzfeedpfp.jpeg">
+            <p class = "mutuals">98 mutual friends</p>
+            </div>
+          </div>
+          <button class = "add-friend-button">Add Friend</button>
+        </div>
+      
+        <div class = "facebook-div">
+          <img class = "pfpfacebook" src = "../09_div/krab_borg.webp">
+          <p class = "name">Robot Krabs</p>
+
+          <div class = mutualsection>
+            <div class = "mutualgrid">
+              <img class = "mutualpfp" src = "../Youtube Final Project/pfps/buzzfeedpfp.jpeg">
+              <p class = "mutuals">Beep mutual friends</p>
+            </div>
+          </div>
+    
+          <button class = "add-friend-button">Add Friend</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+</html>

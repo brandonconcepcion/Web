@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson 13</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .question-titles{
+            font-family: Montserrat;
+        }
+
+        .flex1{
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+        }
+
+        .innerflex1{
+            vertical-align: middle;
+            display: flex;
+            width: 100px;
+            background-color: lightpink;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item1{
+            background-color: rgb(22, 18, 18); 
+            color: white;
+        }
+
+        .nestedflex2{
+            display: flex;
+            flex-direction: row;
+            background-color: lightblue;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <p class = "question-titles"> 13a. Nested Flexbox</p>
+    
+    <div class = "flex1">
+        <div class = "innerflex1">
+            <div class = "item1" >item 1</div>
+        </div>
+        <div style="background-color: lightblue; width: 200px;"></div>
+    </div>
+
+    <br>
+
+    <p class = "question-titles"> 13b. Nested Flexbox Part 2</p>
+
+    <div class = "flex1">
+       <div style = "width: 100px; background-color: lightpink;"></div>     
+
+       <div style = "width: 200px; background-color: lightblue;">
+            <div style = "display: flex; justify-content: start">row 1</div>
+
+            <div style = "display: flex; justify-content: space-between;"">
+                <div style = "background-color:black; color: white;">row2</div>
+                <div style = "background-color:black; color: white;">row2</div>
+            </div>
+       </div>
+    </div>
+
+    <p class = "question-titles"> 13d. Gmail iOS</p>
+
+    <style>
+
+        .all_mail{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 500px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+
+        .all_inboxes{
+            font-size: 14px;
+            color: rgb(120, 120, 120);
+            display: flex;
+            justify-content: left;
+            margin-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .email-flex{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 15px;
+        }
+
+        .mailpfp{
+            height: 50px;
+            border-radius: 50%;
+            object-fit: center;
+            margin-left: 6px;
+            margin-right: 15px;
+        }
+
+        .header_time{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 3px;
+        }
+
+    </style>
+
+    <div class = "all_mail">
+        <div class = "all_inboxes">ALL INBOXES</div>
+
+        <div class = "email-flex">
+            <img class = "mailpfp" src = "../Youtube Final Project/pfps/matt_s_pfp.jpeg">
+            <div style = "width: 400px;">
+                <div class = "header_time">
+                    <div style = "font-size: 18px; font-family: Arial; font-weight: bold;">Matthew Stonie</div>
+                    <div style = "font-size: 14px; font-family: Arial; color: rgb(120, 120, 120);">4:58PM</div>
+                </div>
+
+                <div style = "font-size: 16px; font-family: Arial; font-weight: bold; margin-bottom: 3px;">
+                    Dinner Invitation :0
+                </div>
+
+                <div style = "font-size: 15px; font-family: Arial; color: rgb(120, 120, 120);">
+                    Hey! Wanna eat dinner at my place tonight? We can ...
+                </div>
+            </div>
+        </div>  
+
+        <div class = "email-flex">
+            <img class = "mailpfp" src = "../Youtube Final Project/pfps/nbc_pfp.jpeg">
+            <div style = "width: 400px;">
+                <div class = "header_time">
+                    <div style = "font-size: 18px; font-family: Arial; font-weight: bold;">NBC Sports Bay Area</div>
+                    <div style = "font-size: 14px; font-family: Arial; color: rgb(120, 120, 120);">12:31PM</div>
+                </div>
+
+                <div style = "font-size: 16px; font-family: Arial; font-weight: bold; margin-bottom: 3px;">
+                    We forgot to give you 9 more gold medals!
+                </div>
+
+                <div style = "font-size: 15px; font-family: Arial; color: rgb(120, 120, 120);">
+                    Hi Brandon! We seem to have forgotten to give...
+                </div>
+            </div>
+        </div>  
+
+        <div class = "email-flex">
+            <img class = "mailpfp" src = "../10_nested_layouts/data8.png">
+            <div style = "width: 400px;">
+                <div class = "header_time">
+                    <div style = "font-size: 18px; font-family: Arial; font-weight: bold;">DATA 8: Foundations of Data Science</div>
+                    <div style = "font-size: 14px; font-family: Arial; color: rgb(120, 120, 120);">9:27AM</div>
+                </div>
+
+                <div style = "font-size: 16px; font-family: Arial; font-weight: bold; margin-bottom: 3px;">
+                    [ACTION REQUIRED] Caught Cheating
+                </div>
+
+                <div style = "font-size: 15px; font-family: Arial; color: rgb(120, 120, 120);">
+                    Hello, you have been caught using a refrigerator ...
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+
+    <p class = "question-titles"> 13d. Twitter Design with Attachment</p>
+
+    <style>
+        .tweet-container{
+            width: 400px;
+            padding-top: 10px;
+        }
+
+        .tweetflex{
+            display: flex;
+            vertical-align: top;
+
+        }
+
+        .tagflex{
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+
+        .name{
+            font-weight: bold;
+            font-family: Arial;
+            margin-right: 5px;
+            font-size: 14px;
+        }
+
+        .tag{
+            font-family: Arial;
+            font-size: 14px;
+            color: rgb(120, 120, 120);
+        }
+
+        .description{
+            font-family: Arial;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .flex-attachment{
+            display: flex;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 80px;
+            margin-bottom: 13px;
+            align-items: center;
+            border: solid;
+            border-color: rgb(220, 220, 220);
+            border-width: 1px;
+        }
+
+        .youtubecom{
+            font-size: 14px;
+            font-family: Arial;
+            color: rgb(111, 111, 111);
+            margin-bottom: 1px;
+        }
+
+        .thumbnail-column{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(220, 220, 220);
+            margin-right: 10px;
+        }
+
+        .videodescription{
+            font-size: 14px;
+            font-family: Arial;
+            padding-right: 5px;
+        }
+
+        .pfptweet{
+            height: 50px;
+            object-fit: center;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+    </style>
+
+    <div class = "tweet-container">
+        <div class = "tweetflex">
+            <img class = "pfptweet" src = "../10_nested_layouts/data8.png">
+            <div style = "margin-right: 10px;">
+                <div class = "tagflex"> 
+                    <div class = name >supersimple.dev</div>
+                    <div class = tag>@SuperSimpleDev</div>
+                </div>
+                <div class = description> What is backend web development? A complete overview. New video is up!</div>
+                
+                <div class = "flex-attachment">
+                    <div class = "thumbnail-column"></div>
+                    <div>
+                        <div class = "youtubecom">youtube.com</div>
+                        <div class = "videodescription">Backend web development - a complete overview (2021)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

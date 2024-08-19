@@ -1,3 +1,6 @@
+# Final Product 
+* A demo of the final YouTube dupe can be found [here!](https://youtu.be/QTW69CsgJW8)
+
 # Skills Picked up
 * Nested Layouts
 * Display: block / inline-block

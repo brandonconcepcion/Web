@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+    <style>
+        .clothing{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .spongebob{
+            position: relative;
+            width: 400px;
+            border: solid;
+            border-color: gray;
+            border-radius: 1px;
+        }
+
+        .shirt{
+            width: 100%;
+        }
+
+        .sale{
+            position: absolute;
+            top: 10px;
+            right: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-size: 18px;
+            font-weight: 200;
+        }
+
+        .cart-area{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 75%;
+            background-color: rgba(255,255,255,0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .add{
+            background-color: rgba(255,255,255,0.95);
+            border-style: solid;
+            border-width: 1.5px;
+            border-color: black;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body style = "height: 3000px;">
+    
+    <div class = "clothing">
+        <div class = spongebob>
+        <img class = "shirt" src = "spongebob.png">
+            <div class = "sale">
+                20% OFF
+            </div>
+        <div class = cart-area>
+            <button class = add>
+                Add to Cart
+            </button>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

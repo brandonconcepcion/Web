@@ -1,3 +1,10 @@
-All the contents of this repository are of my work, and were created when I was completing the [HTML & CSS Full Course - Beginner to Pro](https://www.youtube.com/watch?v=G3e-cpL7ofc&t) 
+# Skills Picked up
+* Nested Layouts
+* Display: block / inline-block
+* Grid
+* Flexboxes
+* Position
 
-<img src = "https://i.ytimg.com/vi/G3e-cpL7ofc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeCRIPYMkDqa-58AscpsxUVLUc4w">
+## Notes
+* This was my first real introduction to HTML and CSS, and I feel I have a very solid foundation
+* All the contents of this repository are my work and were created while progressing through the [HTML & CSS Full Course - Beginner to Pro](https://www.youtube.com/watch?v=G3e-cpL7ofc&t) by SuperSimpleDev

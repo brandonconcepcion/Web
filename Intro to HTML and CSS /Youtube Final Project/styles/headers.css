@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     position: fixed;
     top: 0;
     left: 0;
@@ -12,6 +11,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-color: rgb(228,228,228);
+    z-index: 100;
 }
 
 .search-bar{
@@ -103,6 +103,25 @@
 
   .notis-icon{
     height: 24px;
+  }
+
+  .notifications-icon-container{
+    position: relative;
+  }
+
+  .notifications-count{
+    position: absolute;
+    background-color: rgb(200,0,0);
+    color: white;
+    top: -2px;
+    right: -3px;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 50%;
   }
 
   .current-user-picture{

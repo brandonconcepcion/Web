@@ -1,10 +1,11 @@
 
   .thumbnail{
     width: 100%;
+    border-radius: 8px;
   }
 
   .thumbnail-row{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
   }
 
@@ -17,10 +18,7 @@
     font-family: Roboto, Arial;
     font-size: 12px;
     font-weight: 500;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 4px;
     border-radius: 2px;
   }
 
@@ -30,6 +28,28 @@
     column-gap: 15px;
     row-gap: 40px;
   }
+
+  @media (max-width: 750px){
+    .video-grid{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 751px) and (max-width: 999px){
+    .video-grid{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+ 
+  }
+
+  @media (min-width: 1000px){
+    .video-grid{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+
+
 
   .video-info-grid{
     display: grid;
@@ -41,7 +61,7 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   .video-author, .video-stats{
@@ -63,6 +83,6 @@
   }
 
   .profilepic{
-    width: 37px;
+    width: 36px;
     border-radius: 50%;
   }
